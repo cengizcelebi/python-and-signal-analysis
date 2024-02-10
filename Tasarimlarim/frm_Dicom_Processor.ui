@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>982</width>
+    <height>785</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dicom Processor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTextEdit{
+	border:solid 4px black;
+	background:#ffffff;
+	font-size:11px;
+}
+
+QPushButton,
+QToolButton{
+	background-color:gray;
+	color:white;
+	font-size:13px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+ 
+
+QPushButton:hover,
+QToolButton:hover{
+	background:white; 
+	color:gray; 
+}
+
+QPushButton#btnOpenFile{
+	background-color:#f40352;
+	border: 2px solid #f40352;
+}
+
+QPushButton#btnOpenFile:hover{
+	background:white;  
+	color:#f40352;
+}
+
+.clsDeneme{
+color:red
+}</string>
+  </property>
+  <widget class="QPushButton" name="btnOpenFile">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>149</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Dicom Dosyası Seç</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtHeader">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>831</width>
+     <height>581</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOpenFolder">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>149</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Dicom Data Klasörü Seç</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
